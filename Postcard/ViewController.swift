@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPress(sender: UIButton) {
+        // adding a comment hereto test commits
+        
         messageLabel.hidden = false
         messageLabel.text = enterMessagetextField.text
         messageLabel.textColor = UIColor.redColor()
@@ -36,6 +38,8 @@ class ViewController: UIViewController {
         enterMessagetextField.resignFirstResponder()
         
         mailButtton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        
+        
         
     }
 
